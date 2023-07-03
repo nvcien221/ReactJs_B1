@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navLink{
+  color: white;
+}
+#navLinkAfter{
+  color: rgba(255, 255, 255, 0.55);
+}
+#navLinkAfter:hover{
+  color: rgba(255, 255, 255, 0.75);
+}
+.card-content{
+  position: relative;
+  border-radius: 0.375rem;
+}
+#boxIcon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+    position: absolute;
+    top: -15%;
+    right: 40%;
+}
